@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { MainComponent } from './components/main/main.component';
 import { CardsComponent } from './components/subComponents/cards/cards.component';
 import { HomeComponent } from './pages/home/home.component';
 
@@ -13,7 +12,6 @@ import { HomeComponent } from './pages/home/home.component';
   declarations: [
     AppComponent,
     NavbarComponent,
-    MainComponent,
     CardsComponent,
     HomeComponent
   ],
